@@ -151,7 +151,7 @@ const config: AdrastiaConfig = {
                     tokens: [
                         {
                             address: "0xcd4eb98d487478925bb032580ab13e7ccfcb2e814500b526f00bd9fa651cc6b6",
-                            batch: 0,
+                            batch: 3,
                             extra: {
                                 desc: "Pyth:msETH/USD",
                                 heartbeat: 60 * 60, // 1 hour
@@ -163,7 +163,7 @@ const config: AdrastiaConfig = {
                         },
                         {
                             address: "0xc753c899ffdfcc8d1a02440fe380501b454b559122998bcd245d9063d07cc162",
-                            batch: 0,
+                            batch: 3,
                             extra: {
                                 desc: "Pyth:msUSD/USD",
                                 heartbeat: 60 * 60, // 1 hour
